@@ -1,0 +1,29 @@
+{
+	"maxClaims": 11,
+	"runs" : 30,
+	"mnemonic": "family dress industry stage bike shrimp replace design author amateur reopen script",
+	"disclosedClaims" : 0.75,
+	"original":{
+
+	},
+	"symmetricKey":{
+		"K":"aes-128-cbc",
+		"symmetrickeylength":128
+	},
+	"hash":{
+		"H":"sha3-256",
+		"keylength": 512
+	},
+	"merkleTree":{
+		"HLeaves":"keccak256",
+		"keyLengthHLeaves":256,
+		"HTree": "sha3-256"
+	},
+	"merklePatriciaTree":{
+		"HTree": "none",
+		"HLeaves":"keccak256",
+		"keyLength":256
+	},
+	"atomic":{
+	}
+}
